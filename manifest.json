@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Netflix Pause Removal",
+  "version": "1.0.1",
+  "description": "Remove the pause between netflix episodes",
+  "content_scripts": [{
+  "matches":["http://www.netflix.com/*"],
+  "js":["background.js"]
+  }]
+}
