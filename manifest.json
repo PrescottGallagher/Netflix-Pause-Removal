@@ -4,7 +4,7 @@
   "version": "1.0.1",
   "description": "Remove the pause between netflix episodes",
   "content_scripts": [{
-  "matches":["http://www.netflix.com/*"],
+  "matches":["*://www.netflix.com/*"],
   "js":["background.js"]
   }]
 }
